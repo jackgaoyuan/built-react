@@ -1,0 +1,27 @@
+{
+  "name": "built-react",
+  "version": "1.0.0",
+  "description": "Build a minial react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackgaoyuan/built-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackgaoyuan/built-react/issues"
+  },
+  "homepage": "https://github.com/jackgaoyuan/built-react#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7"
+  }
+}
